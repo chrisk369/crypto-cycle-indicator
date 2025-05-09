@@ -1,11 +1,6 @@
-import streamlit as st
-import requests
-import pandas as pd
-import numpy as np
-from datetime import datetime
-from pytrends.request import TrendReq
-import time
-
-st.set_page_config(page_title="🧠 Crypto Cycle Top Indicator", layout="wide")
-st.title("🧠 Crypto Cycle Top Indicator")
-st.caption("Combining sentiment, price, and on-chain signals to spot potential cycle tops")
+streamlit==1.13.0
+requests==2.26.0
+pandas==1.3.3
+pytrends==4.7.3
+TA-Lib==0.4.0
+numpy==1.21.2
