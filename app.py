@@ -1,6 +1,6 @@
-streamlit==1.13.0
-requests==2.26.0
-pandas==1.3.3
-pytrends==4.7.3
-TA-Lib==0.4.0
-numpy==1.21.2
+import streamlit as st
+import requests
+import pandas as pd
+from datetime import datetime
+from pytrends.request import TrendReq
+import time
